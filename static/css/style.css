@@ -1,0 +1,37 @@
+.menu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight:bold;
+    height:70px;
+    width:100%;
+    background-color:hwb(172 51% 9%);
+    border-radius:5px;
+    font-size:13px;
+}
+
+
+body {
+    background-color: rgb(59, 160, 160);
+}
+.menu ul{
+    margin:0px;
+    padding: 5px;
+    background:none;
+    display: block;
+    float:right;
+}
+.menu ul li {
+    list-style:none;
+    display:inline-block;
+}
+.menu ul li a {
+    display:block;
+    text-decoration: none;
+    padding:20px;
+    color:#2c4949;
+}
+.menu ul li a:hover {
+    display:block;
+    color:rgb(0, 0, 0);
+    background-color:rgb(46, 138, 138);
+    box-shadow:inset 0px 0px 5px #00c2cb;
+}
