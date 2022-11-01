@@ -4,3 +4,4 @@ from faperta.models import Dosen, Staf, Mahasiswa
 admin.site.register(Dosen)
 admin.site.register(Staf)
 admin.site.register(Mahasiswa)
+
